@@ -5,6 +5,11 @@ body{
 main{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center
+}
+.container{
+    margin-bottom: 22px;
 }
 .section-title{
     color: #562EFF;
@@ -55,3 +60,34 @@ main{
 .blog-details{
     margin-left: 16px;
 }
+.blog-details a{
+    text-decoration: none;
+    color: rgb(8, 12, 240);
+    font-weight: 800;
+}
+
+
+/* -----------------
+    latest courser
+ -------------------*/
+ .courses{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+ }
+ .course-thamnel img{
+    width 160px;
+    height: 110px;
+ }
+ .course-author{
+    color: rgb(6, 101, 179)
+ }
+ .fa-star.s{
+   color:rgb(233, 191, 5)
+ }
+ .fa-star.l{
+   color:rgb(163, 161, 154)
+ }
+ .course-rating{
+    display:flex;
+    
+ }
