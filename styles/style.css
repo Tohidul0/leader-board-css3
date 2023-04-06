@@ -1,0 +1,57 @@
+/* top-player */
+body{
+    background-color: rgb(209, 218, 228);
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
+    margin-top: 3px;
+}
+.container{
+    background-color: white;
+    width: 870px;
+    padding: 30px;
+   
+}
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.player{
+    display: flex;
+    align-content: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.palyer-name{
+    margin-left: 16px;
+}
+
+/* -------------top-blogs style strat-------------------------------------------
+----------------------------------------------------------------------------
+---------------------------------------------------------------------------- */
+.top-blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap:30px;
+}
+
+.blog{
+    display: flex;
+}
+.blog .thamnel img{
+    width 160px;
+    height: 110px;
+}
+.blog-details{
+    margin-left: 16px;
+}
